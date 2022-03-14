@@ -11,25 +11,31 @@ import androidx.appcompat.app.AppCompatActivity;
 public class EditContactActivity extends AppCompatActivity {
 
     TextView tvName;
-    EditText etEmail;
+
     long id;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_contact);
-        id = getIntent().getExtras().getLong("id");
-        String name = getIntent().getExtras().getString("name");
-        String email = getIntent().getExtras().getString("email");
+        String family = getIntent().getExtras().getString("family");
+        String common_name = getIntent().getExtras().getString("common name");
+        String latin_name = getIntent().getExtras().getString("latin name");
         tvName = findViewById(R.id.tvName);
-        etEmail = findViewById(R.id.etEmail);
-        tvName.setText(name);
-        etEmail.setText(email);
+        tvName.setText(common_name);
+        
+       btnGet.setOnClickListener(new View.OnClickListener() {
+         @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Addding a plant to your garden!", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
     }
 
-    public void editContact(View view){
-        String email = etEmail.getText().toString();
-        //MainActivity.DatabaseAdapter.updateEmailNew(id, email);
-        startActivity(new Intent(EditContactActivity.this, MainActivity.class));
-        finish();
-    }
+//     public void editContact(View view){
+//         String email = etEmail.getText().toString();
+//         //MainActivity.DatabaseAdapter.updateEmailNew(id, email);
+//         startActivity(new Intent(EditContactActivity.this, MainActivity.class));
+//         finish();
+//     }
 }
