@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixthFragment">
+
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sensor1"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView78"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_F"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView79"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data12a    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView77"
+        app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_C"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView79"
+        app:layout_constraintStart_toEndOf="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="    data14a    "
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView80"
+        app:layout_constraintStart_toEndOf="@+id/textView80" />
+
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView83"
+        app:layout_constraintStart_toStartOf="@+id/textView78" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="    data22a    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView82"
+        app:layout_constraintTop_toBottomOf="@+id/textView78" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/moist"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView83"
+        app:layout_constraintStart_toEndOf="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data24a    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView81"
+        app:layout_constraintTop_toTopOf="@+id/textView84" />
+
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/light_b"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView87"
+        app:layout_constraintStart_toStartOf="@+id/textView82" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data32a    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView82"
+        app:layout_constraintTop_toBottomOf="@+id/textView82" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pH"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView87"
+        app:layout_constraintStart_toEndOf="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data34a    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView85"
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+
+    <Button
+        android:id="@+id/button_First6"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/avg_moist"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView121"
+        app:layout_constraintTop_toTopOf="@+id/button_Third6" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="118dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView90" />
+
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sensor2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView91" />
+
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_F"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView94"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="    data12b    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView93"
+        app:layout_constraintTop_toBottomOf="@+id/textView92" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_C"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView94"
+        app:layout_constraintStart_toEndOf="@+id/textView102" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="    data14b    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView95"
+        app:layout_constraintTop_toTopOf="@+id/textView95" />
+
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView98"
+        app:layout_constraintStart_toStartOf="@+id/textView93" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data22b    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView93"
+        app:layout_constraintTop_toBottomOf="@+id/textView93" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/moist"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView98"
+        app:layout_constraintStart_toEndOf="@+id/textView102" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data24b    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView96"
+        app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/light_b"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView102"
+        app:layout_constraintStart_toStartOf="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="    data32b    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView101"
+        app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pH"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView102"
+        app:layout_constraintStart_toEndOf="@+id/textView102" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data34b    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView103"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+
+    <Button
+        android:id="@+id/button_Second6"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/avg_pH"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_First6" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView101" />
+
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView105" />
+
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/avg"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView106" />
+
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_F"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView109"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data12c    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView107"
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temp_C"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView109"
+        app:layout_constraintStart_toEndOf="@+id/textView117" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:text="    data14c    "
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView110"
+        app:layout_constraintStart_toEndOf="@+id/textView110" />
+
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView113"
+        app:layout_constraintStart_toStartOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="    data22c    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView112"
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/moist"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView113"
+        app:layout_constraintStart_toEndOf="@+id/textView117" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data24c    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView111"
+        app:layout_constraintTop_toTopOf="@+id/textView114" />
+
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/light_b"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView117"
+        app:layout_constraintStart_toStartOf="@+id/textView112" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data32c    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView112"
+        app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pH"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView117"
+        app:layout_constraintStart_toEndOf="@+id/textView117" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    data34c    "
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/textView115"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+
+    <Button
+        android:id="@+id/button_Third6"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/avg_temp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView118" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView116" />
+
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView120" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

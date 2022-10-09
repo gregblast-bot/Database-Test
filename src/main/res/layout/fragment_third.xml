@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ThirdFragment">
+
+    <TextView
+        android:id="@+id/plant1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Plant1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/critical1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Critical"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/suboptimal1"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant1" />
+
+    <TextView
+        android:id="@+id/suboptimal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant1" />
+
+    <TextView
+        android:id="@+id/optimal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/suboptimal1"
+        app:layout_constraintTop_toBottomOf="@+id/plant1" />
+
+    <TextView
+        android:id="@+id/plant2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="Plant2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/critical2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Critical"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/suboptimal2"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant2" />
+
+    <TextView
+        android:id="@+id/suboptimal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant2" />
+
+    <TextView
+        android:id="@+id/optimal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/suboptimal2"
+        app:layout_constraintTop_toBottomOf="@+id/plant2" />
+
+    <TextView
+        android:id="@+id/plant3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:text="Plant3"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/critical3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Critical"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/suboptimal3"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant3" />
+
+    <TextView
+        android:id="@+id/suboptimal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant3" />
+
+    <TextView
+        android:id="@+id/optimal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/suboptimal3"
+        app:layout_constraintTop_toBottomOf="@+id/plant3" />
+
+    <TextView
+        android:id="@+id/plant4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:text="Plant4"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/critical4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Critical"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/suboptimal4"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant4" />
+
+    <TextView
+        android:id="@+id/suboptimal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant4" />
+
+    <TextView
+        android:id="@+id/optimal4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/suboptimal4"
+        app:layout_constraintTop_toBottomOf="@+id/plant4" />
+
+    <TextView
+        android:id="@+id/plant5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:text="Plant5"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/critical5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Critical"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/suboptimal5"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant5" />
+
+    <TextView
+        android:id="@+id/suboptimal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub-Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plant5" />
+
+    <TextView
+        android:id="@+id/optimal5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimal"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/suboptimal5"
+        app:layout_constraintTop_toBottomOf="@+id/plant5" />
+
+    <Button
+        android:id="@+id/button_first3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="@string/data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
